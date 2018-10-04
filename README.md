@@ -8,6 +8,14 @@
 
 [GoLangTraining Repository](https://github.com/katipogluMustafa/goLangTraining)
 
+## Java Language Training
+
+[JavaLangTraining Repository](https://github.com/katipogluMustafa/javaLangTraining)
+
+## Assembly Language Training
+
+[Assembly Language Training Repository](https://github.com/katipogluMustafa/AssemblyLangTraining)
+
 ## Web Development With Go
 
 [Web Development With Go Repository](https://github.com/katipogluMustafa/webDevelopmentWithGo)
@@ -16,9 +24,6 @@
 
 [Android Repository](https://github.com/katipogluMustafa/android)
 
-## Assembly Language Training
-
-[Assembly Language Training Repository](https://github.com/katipogluMustafa/AssemblyLangTraining)
 
 ## Discrete Math
 
