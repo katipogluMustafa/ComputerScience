@@ -1,1 +1,33 @@
 # Computer Science
+
+## C Language Training
+
+[CLangTraining Repository](https://github.com/katipogluMustafa/CLangTraining)
+
+## Go Language Training
+
+[GoLangTraining Repository](https://github.com/katipogluMustafa/goLangTraining)
+
+## Web Development With Go
+
+[Web Development With Go Repository](https://github.com/katipogluMustafa/webDevelopmentWithGo)
+
+## Android Training
+
+[Android Repository](https://github.com/katipogluMustafa/android)
+
+## Assembly Language Training
+
+[Assembly Language Training Repository](https://github.com/katipogluMustafa/AssemblyLangTraining)
+
+## Discrete Math
+
+[Discrete Math Repository](https://github.com/katipogluMustafa/discreteMath)
+
+## Signals And Systems
+
+[Signals And Systems Repository](https://github.com/katipogluMustafa/SignalsAndSystems)
+
+## Logic And Computer Design
+
+[Logic And Computer Design Repository](https://github.com/katipogluMustafa/LogicAndComputerDesign)
