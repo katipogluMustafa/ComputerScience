@@ -36,3 +36,35 @@
 ## Logic And Computer Design
 
 [Logic And Computer Design Repository](https://github.com/katipogluMustafa/LogicAndComputerDesign)
+
+## Weekly Program
+
+Friday -->
+`Asm`
+`C`
+
+Saturday -->
+`Go`
+`Go-Web`
+
+Sunday -->
+`Logic`
+`Asm`
+`Java`
+
+Monday -->
+`C`
+`Signals`
+
+Tuesday -->
+C
+
+Wednesday -->
+`Java`
+`Android`
+`Asm`
+
+Thursday -->
+`Logic`
+`Discrete`
+`Go`
