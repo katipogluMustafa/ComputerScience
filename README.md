@@ -40,31 +40,39 @@
 ## Weekly Program
 
 Friday -->
-`Asm`
-`C`
+
+`C ~ Programming Concepts`
 
 Saturday -->
-`Go`
-`Go-Web`
+
+`C ~ Project Euler`
+
+`C ~ Networking`
 
 Sunday -->
+
 `Logic`
-`Asm`
-`Java`
+
+`Asm ~ Algorithms`
 
 Monday -->
-`C`
+
+`C ~ Applications`
+
 `Signals`
 
 Tuesday -->
-C
+
+`C ~ Algorithms`
 
 Wednesday -->
-`Java`
-`Android`
-`Asm`
+
+`Asm ~ Algorithms`
 
 Thursday -->
+
 `Logic`
+
 `Discrete`
-`Go`
+
+`Asm ~ Programming Concepts`
