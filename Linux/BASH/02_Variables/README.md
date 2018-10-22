@@ -9,3 +9,10 @@ To read the variable we place its name (preceded by a $ sign) anywhere in the sc
  * Some people like to always write variable names in uppercase so they stand out. It's your preference however. 
     * Variables in BASH can be all uppercase, all lowercase, or a mixture.
  
+## Command Line Arguments
+
+![](img/1.png)
+
+## Other Special Variables
+
+![](img/2.png)
