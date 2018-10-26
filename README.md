@@ -37,42 +37,4 @@
 
 [Logic And Computer Design Repository](https://github.com/katipogluMustafa/LogicAndComputerDesign)
 
-## Weekly Program
 
-Friday -->
-
-`C ~ Programming Concepts`
-
-Saturday -->
-
-`C ~ Project Euler`
-
-`C ~ Networking`
-
-Sunday -->
-
-`Logic`
-
-`Asm ~ Algorithms`
-
-Monday -->
-
-`C ~ Applications`
-
-`Signals`
-
-Tuesday -->
-
-`C ~ Algorithms`
-
-Wednesday -->
-
-`Asm ~ Algorithms`
-
-Thursday -->
-
-`Logic`
-
-`Discrete`
-
-`Asm ~ Programming Concepts`
