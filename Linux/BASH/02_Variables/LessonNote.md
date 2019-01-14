@@ -65,4 +65,24 @@ myVar=-1;
 if [ $myVar -ne -1 ];then echo "Program successfully terminated";else echo "Program is not working properly.";fi
 ```
 
+#### Ex 3
+```bash
 
+```
+
+
+#### Ex 3
+```bash
+
+```
+
+
+#### Ex 3
+```bash
+
+```
+
+#### Ex 3
+```bash
+
+```
