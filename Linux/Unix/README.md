@@ -62,3 +62,50 @@ date
 ```bash
 hostname
 ```
+
+```bash
+cd / # change directory into root directory
+cd   #  "       ""      into home directory
+```
+
+* You can obtain a listing of the files and directories in your own top-level directory
+```
+ls -F
+# Any filename that ends with a slash (/) is a folder (Unix calls these directories). 
+# Any filename that ends with an asterisk (*) is a program. 
+# Anything ending with the at sign (@) is a symbolic link (a pointer to another file or directory elsewhere in the file system)
+# and everything else is a normal, plain file.
+```
+---
+
+### The bin Directory
+
+The bin directory is where all the executable binaries were kept in early Unix. Over time, as more and more executables were added to Unix, having all the executables in one place proved unmanageable, and the bin directory split into multiple parts with different purposes (/bin, /sbin, /usr/bin).
+
+### The dev Directory
+
+All device drivers—often numbering into the hundreds—are stored as separate files in the standard Unix dev (devices) directory.
+
+Remember, everything in Unix is a file. Every component of the system, from the keyboard driver to the hard disk, is a file.
+
+### The lib Directory
+
+Unix has a central storage place for function and procedural libraries. These specific executables are included with specific programs and allow programs to offer features and capabilities that are otherwise unavailable. 
+
+### The lost+found Directory
+
+When files are recovered after any sort of problem or failure, they are placed here, in the lost+found directory, if the kernel cannot ascertain the proper location in the file system.
+
+### The mnt and sys Directories
+
+The mnt directory is intended to be a common place to mount external media—hard disks, removable cartridge drives, and so on—in Unix. On many systems, though not all, sys contains files indicating the system configuration.
+
+### The tmp Directory
+
+tmp is used by many of the programs in Unix as a temporary file-storage space.
+
+---
+
+if a filename begins with /, it’s absolute.
+
+A hidden file is any file with a dot as the first character of the filename.
