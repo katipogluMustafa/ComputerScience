@@ -28,3 +28,37 @@ whatis mkdir
 ls --help 
 ls -h 
 ```
+
+* exit the current user session in the command line pc case, the terminal in the case of GUI computers
+```bash
+exit
+```
+
+* find out who the current user are
+```bash
+whoami
+```
+
+* The purpose of this command is to tell you what group or groups you’re in and the numeric identifier for your account name
+```bash
+id
+```
+
+* who else is there?
+```bash
+users
+
+who
+
+w  # who they are, and what are they doing ?
+```
+
+* show date
+```bash
+date
+```
+
+* learn host machine name
+```bash
+hostname
+```
