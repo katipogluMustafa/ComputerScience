@@ -5,7 +5,7 @@
 uname -a
 ```
 
-# Disassembly
+## Disassembly
 
 * if you want to disassembly source file
 
@@ -55,5 +55,11 @@ gcc -c -g -Wa,-ahl=test.s test.c
 
 ```
 
+## Processes
+
+```bash
+# Display all the processes including their environments
+ps -ae
+```
 
 

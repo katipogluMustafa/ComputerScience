@@ -88,6 +88,10 @@ All device drivers—often numbering into the hundreds—are stored as separate 
 
 Remember, everything in Unix is a file. Every component of the system, from the keyboard driver to the hard disk, is a file.
 
+### The etc Directory
+
+Unix administration can be quite complex, involving management of user accounts, the file system, security, device drivers, hardware configurations, and more. To help, Unix designates the etc directory as the storage place for all administrative files and information.
+
 ### The lib Directory
 
 Unix has a central storage place for function and procedural libraries. These specific executables are included with specific programs and allow programs to offer features and capabilities that are otherwise unavailable. 
@@ -109,3 +113,49 @@ tmp is used by many of the programs in Unix as a temporary file-storage space.
 if a filename begins with /, it’s absolute.
 
 A hidden file is any file with a dot as the first character of the filename.
+
+* The output of the `env` command shows some of the standard environment variables.
+![](img/env.png)
+
+* The two most important values in your environment are the name of your home directory (HOME) and your search path (PATH). 
+
+* Your home directory (as it’s known) is the name of the directory in which you always begin your Unix session.
+
+* The PATH environment variable lists the set of directories, **in left-to-right order**, that the system searches to find commands and applications you request.
+
+```bash
+$ echo $PATH
+/home/taylor/bin:/bin:/usr/bin:/usr/ucb:/usr/local/bin:/usr/unsup/bin:.
+$ echo $HOME
+/home/taylor
+$
+```
+
+* Find Where You Are with pwd
+```
+$ pwd
+/home/taylor
+```
+
+* Without any directory specified, cd moves you back to your home directory automatically
+```bash
+$ cd
+$ pwd
+/home/taylor
+```
+
+* **absolute filename** Any filename that begins with a leading slash (/); it uniquely describes a single file in the file system.
+
+* Enter `ls -s` to find out file sizes:
+
+* if you see an @ after a filename, it’s a link to another spot in the file system.
+
+* The -m flag outputs the files as a comma-separated list. 
+```bash
+  % ls -m
+  Archives, InfoWorld, LISTS, Mail, News, OWL, RUMORS.18Sept,
+  bin, iecc.list, mailing.lists, newels, src
+```
+
+![](img/1.jpg)
+
