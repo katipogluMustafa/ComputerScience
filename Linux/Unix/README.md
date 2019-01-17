@@ -159,3 +159,81 @@ $ pwd
 
 ![](img/1.jpg)
 
+* -d flag, which forces ls to list directories rather than their contents. 
+
+##  Changing the Sort Order in ls
+
+* -x makes sort order row first instead of default behaviour(column first.)
+![](img/1.png)
+
+* -t sorts by most recently accessed to least recently accessed
+![](img/2.png)
+
+* -r flag reverses any sorting order
+![](img/3.png)
+
+* -R flag, which causes ls to recursively list directories below the current or specified directory. 
+![](img/4.png)
+
+## Permission Strings
+
+![](img/permissionStrings.png)
+
+![](img/elementsOfPermissionString.png)
+
+* The system keeps track of whether a file is executable because that’s one way it knows whether the name is the name of a file or the name of an application.
+
+* Remember that you must have both read and execute permissions for a directory. If you have either read or execute permission but not both, the directory will not be usable (as though you had neither permission). Write permission, of course, enables the user to alter the contents of the directory or add new files to the directory.
+
+![](img/directoryPermissions.png)
+
+## ls flag summary
+
+![](img/ls_summary.png)
+
+## create files with touch
+![](img/touch.png)
+
+## learn about the state
+
+*  The du command lists the size, in kilobytes, of all directories at or below the current point in the file system.
+    
+    ![](img/du_cmd.png)
+    
+   * use the -h option to display the sizes in human-readable format, with K and M suffixes.
+   
+     ![](img/du_f_.png)
+    
+   * use the -s flag to output just a summary of the information.
+    
+      ![](img/du_s.png)
+      
+   * The du command summarizes disk usage only for the files and directories it can read
+   * Although by default du lists only the sizes of directories, it also computes the size of all files. If you’re interested in that information, you can, by adding the -a flag, have the program list it for all files:
+        ![](img/du_a.png)
+        
+## Checking Available Disk Space with df
+
+![](img/df.png)
+
+![](img/_df_output_explained.png)
+
+![](img/_df_h.png)
+
+## Shrinking Big Files with the gzip Program
+
+![](img/gzip_1.png)
+
+*  Using gzip on bigger files can show even greater savings (note that I’m also adding the -v flag, which shows how much savings I’ve gained by using gzip on the file in question):
+
+![](img/gzip_2.png)
+
+*  To reverse the operation, use the companion command gunzip and specify either the current name of the file (that is, with the .gz suffix) or the name of the file before it was compressed (that is, without the .gz suffix):
+
+![](img/gzip_3.png)
+
+> Why would you compress files? You would do so to save file space. Before you use any of the compressed files, though, you must uncompress them, so the gzip utility is best used with large files you won’t need for a while.
+
+### gzip alternatives
+
+![](img/gzip_alternatives.png)
