@@ -1,0 +1,3 @@
+# Run this from command line
+{ ll -R | awk '{print $8}' | cut -c 1-2 | awk '{ {count += 1} {time += $1} } END{ printf "%02d:",int(time/count) }'; ll | awk '{print $8}'| cut -c 4-5 | awk '{ {count += 1} {time += $1} } END{ printf "%02d\n",int(time/count) }'; }
+
