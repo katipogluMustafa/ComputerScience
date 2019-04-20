@@ -14,3 +14,8 @@ git config --global credential.helper 'cache --timeout 7200'
 ```bash
 git push -f origin HEAD^:master
 ```
+
+* Commit on behalf of somebody else
+```bash
+GIT_COMMITTER_NAME="New Name" GIT_COMMITTER_EMAIL="name@email.com" git commit --author="New Name <name@email.com>"
+```
