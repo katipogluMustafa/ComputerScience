@@ -19,3 +19,11 @@ git push -f origin HEAD^:master
 ```bash
 GIT_COMMITTER_NAME="New Name" GIT_COMMITTER_EMAIL="name@email.com" git commit --author="New Name <name@email.com>"
 ```
+
+
+* Update last commit's message
+
+```
+git commit --amend        # Update message in opened text editor
+git push --force <repository> <branch>
+```
