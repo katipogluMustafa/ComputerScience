@@ -77,3 +77,9 @@ ps -ae
 ```bash
 openssl sha -sha256 <file>
 ```
+
+## SSH Key Generation
+
+```
+ssh-keygen -t rsa
+```
