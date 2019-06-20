@@ -72,3 +72,8 @@ ps -ae
 ```
 
 
+## Hash
+
+```bash
+openssl sha -sha256 <file>
+```
