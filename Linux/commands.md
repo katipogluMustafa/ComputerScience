@@ -86,3 +86,12 @@ openssl sha -sha256 <file>
 ```
 ssh-keygen -t rsa
 ```
+
+# Deactivate GUI
+
+```
+# First stop the gnome
+sudo service gdm stop   # sudo service gdm start
+# Then kill all related processes
+kill -9 $(pgrep -f gnome)
+```
