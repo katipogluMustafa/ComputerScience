@@ -69,6 +69,9 @@ gcc -c -g -Wa,-ahl=test.s test.c
 ```bash
 # Display all the processes including their environments
 ps -ae
+
+# Kill Process Group
+kill -9 $(pgrep -f myName)
 ```
 
 
