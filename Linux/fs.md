@@ -15,6 +15,9 @@
 # Backup
 dd if=/dev/sda of=~/mbrbackup.img bs=512 count=1
 
+# Display the MBR
+od -xa ~/mbrbackup.img
+
 # Restore
 dd if=/tmp/sdambr.img of=/dev/sda
 ```
